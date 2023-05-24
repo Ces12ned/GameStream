@@ -11,6 +11,11 @@
 		0A10457A2A1DCB51000EC262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1045792A1DCB51000EC262 /* ContentView.swift */; };
 		0A10457C2A1DCB53000EC262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A10457B2A1DCB53000EC262 /* Assets.xcassets */; };
 		0A10457F2A1DCB53000EC262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A10457E2A1DCB53000EC262 /* Preview Assets.xcassets */; };
+		0A1045862A1DCF94000EC262 /* LogSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1045852A1DCF94000EC262 /* LogSignInButton.swift */; };
+		0A1045882A1DD2D8000EC262 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1045872A1DD2D8000EC262 /* SignUpView.swift */; };
+		0A10458A2A1DD5CE000EC262 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1045892A1DD5CE000EC262 /* LogInView.swift */; };
+		0A10458C2A1DEF16000EC262 /* PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A10458B2A1DEF16000EC262 /* PlaceHolder.swift */; };
+		0A10458E2A1DF91B000EC262 /* SocialMediaLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A10458D2A1DF91B000EC262 /* SocialMediaLogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		0A1045792A1DCB51000EC262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A10457B2A1DCB53000EC262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A10457E2A1DCB53000EC262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A1045852A1DCF94000EC262 /* LogSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSignInButton.swift; sourceTree = "<group>"; };
+		0A1045872A1DD2D8000EC262 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0A1045892A1DD5CE000EC262 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		0A10458B2A1DEF16000EC262 /* PlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolder.swift; sourceTree = "<group>"; };
+		0A10458D2A1DF91B000EC262 /* SocialMediaLogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaLogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				0A1045772A1DCB51000EC262 /* GameStreamApp.swift */,
 				0A1045792A1DCB51000EC262 /* ContentView.swift */,
+				0A1045852A1DCF94000EC262 /* LogSignInButton.swift */,
+				0A1045872A1DD2D8000EC262 /* SignUpView.swift */,
+				0A1045892A1DD5CE000EC262 /* LogInView.swift */,
+				0A10458D2A1DF91B000EC262 /* SocialMediaLogInView.swift */,
 				0A10457B2A1DCB53000EC262 /* Assets.xcassets */,
 				0A10457D2A1DCB53000EC262 /* Preview Content */,
+				0A10458B2A1DEF16000EC262 /* PlaceHolder.swift */,
 			);
 			path = GameStream;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A10458A2A1DD5CE000EC262 /* LogInView.swift in Sources */,
+				0A1045882A1DD2D8000EC262 /* SignUpView.swift in Sources */,
 				0A10457A2A1DCB51000EC262 /* ContentView.swift in Sources */,
+				0A10458E2A1DF91B000EC262 /* SocialMediaLogInView.swift in Sources */,
 				0A1045782A1DCB51000EC262 /* GameStreamApp.swift in Sources */,
+				0A1045862A1DCF94000EC262 /* LogSignInButton.swift in Sources */,
+				0A10458C2A1DEF16000EC262 /* PlaceHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
