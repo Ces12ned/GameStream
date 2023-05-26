@@ -7,21 +7,18 @@
 
 import UIKit
 
-struct Game: Codable{
+struct Game: Codable, Hashable{
     
     let title, studio, contentRaiting, publicationYear: String
     let description : String
-    let plataforms, tags: [String]
+    let platforms, tags: [String]
     let videosUrls: VideoUrls
-    let falleryImages: [String]
-    
-    
+    let galleryImages: [String]
 }
 
-struct VideoUrls: Codable{
+struct VideoUrls: Codable, Hashable{
     
     let mobile, tablet: String
-    
 }
 
 typealias contentGames = [Game]
